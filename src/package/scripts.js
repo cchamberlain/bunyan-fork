@@ -26,7 +26,7 @@ export default ({}) => ({ 'start': 'npm run build -- --watch'
                         , 'test': 'jasmine'
 
                           /** RELEASE */
-                        , 'prerelease': 'npm run test && npm run git-save -- path-release'
+                        , 'prerelease': 'npm run test'
                         , 'release': 'npm version patch && npm publish'
                         , 'postrelease': 'npm run release-gh-pages'
 

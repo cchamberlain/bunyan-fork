@@ -33,7 +33,7 @@
     "build-test": "babel src/spec -d spec",
     "pretest": "npm run build",
     "test": "jasmine",
-    "prerelease": "npm run test && npm run git-save -- path-release",
+    "prerelease": "npm run test",
     "release": "npm version patch && npm publish",
     "postrelease": "npm run release-gh-pages",
     "prerelease-gh-pages": "npm run doc",
