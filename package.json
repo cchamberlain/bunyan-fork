@@ -1,6 +1,6 @@
 {
   "name": "bunyan-fork",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a lightweight bunyan stream to log propagate logs from a forked child process to a logger in its spawning process.",
   "main": "lib/index.js",
   "files": [
